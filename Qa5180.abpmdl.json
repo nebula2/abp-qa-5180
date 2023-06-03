@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Qa5180.Domain.Shared": {
+      "path": "src/Qa5180.Domain.Shared/Qa5180.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Qa5180.Domain": {
+      "path": "src/Qa5180.Domain/Qa5180.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Qa5180.Application.Contracts": {
+      "path": "src/Qa5180.Application.Contracts/Qa5180.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Qa5180.Application": {
+      "path": "src/Qa5180.Application/Qa5180.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Qa5180.EntityFrameworkCore": {
+      "path": "src/Qa5180.EntityFrameworkCore/Qa5180.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Qa5180.MongoDB": {
+      "path": "src/Qa5180.MongoDB/Qa5180.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Qa5180.HttpApi": {
+      "path": "src/Qa5180.HttpApi/Qa5180.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Qa5180.HttpApi.Client": {
+      "path": "src/Qa5180.HttpApi.Client/Qa5180.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Qa5180.TestBase": {
+      "path": "test/Qa5180.TestBase/Qa5180.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Qa5180.EntityFrameworkCore.Tests": {
+      "path": "test/Qa5180.EntityFrameworkCore.Tests/Qa5180.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Qa5180.MongoDB.Tests": {
+      "path": "test/Qa5180.MongoDB.Tests/Qa5180.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Qa5180.Domain.Tests": {
+      "path": "test/Qa5180.Domain.Tests/Qa5180.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Qa5180.Application.Tests": {
+      "path": "test/Qa5180.Application.Tests/Qa5180.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Qa5180.HttpApi.Host": {
+      "path": "host/Qa5180.HttpApi.Host/Qa5180.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Qa5180.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Qa5180.HttpApi.Client.ConsoleTestApp/Qa5180.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Qa5180.IdentityServer": {
+      "path": "host/Qa5180.IdentityServer/Qa5180.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Qa5180.Host.Shared": {
+      "path": "host/Qa5180.Host.Shared/Qa5180.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
