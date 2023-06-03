@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Volo.Abp;
+using Volo.Abp.Identity.EntityFrameworkCore;
 
 namespace Qa5180.EntityFrameworkCore;
 
@@ -9,6 +10,8 @@ public static class Qa5180DbContextModelCreatingExtensions
         this ModelBuilder builder)
     {
         Check.NotNull(builder, nameof(builder));
+
+        builder.ConfigureIdentity();
 
         /* Configure all entities here. Example:
 

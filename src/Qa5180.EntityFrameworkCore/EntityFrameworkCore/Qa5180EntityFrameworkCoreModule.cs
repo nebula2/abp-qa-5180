@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.EntityFrameworkCore;
+using Volo.Abp.Identity.EntityFrameworkCore;
 using Volo.Abp.Modularity;
 
 namespace Qa5180.EntityFrameworkCore;
@@ -8,6 +9,7 @@ namespace Qa5180.EntityFrameworkCore;
     typeof(Qa5180DomainModule),
     typeof(AbpEntityFrameworkCoreModule)
 )]
+[DependsOn(typeof(AbpIdentityEntityFrameworkCoreModule))]
 public class Qa5180EntityFrameworkCoreModule : AbpModule
 {
     public override void ConfigureServices(ServiceConfigurationContext context)

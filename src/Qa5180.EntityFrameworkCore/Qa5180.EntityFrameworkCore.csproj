@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="5.3.5" />
     <ProjectReference Include="..\Qa5180.Domain\Qa5180.Domain.csproj" />
+	<PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" Version="5.3.5" />
   </ItemGroup>
 
 </Project>
